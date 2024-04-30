@@ -4,7 +4,7 @@ Welcome to the GitHub repository for the Interactive Website Chatbot!🚀 This p
 
 ## Features
 - **Website Interaction**: Utilizing the latest version of LangChain, this chatbot can seamlessly extract and leverage information from a variety of websites.
-- **Integration with Large Language Models**: The chatbot is compatible with advanced models like GPT-4, Mistral, Llama2, and ollama. The default configuration uses GPT-4, however, you can easily switch to other models as needed.
+- **Integration with Large Language Models**: The chatbot is compatible with advanced models like GPT-4, Mistral, Llama2, and ollama. The default configuration uses GPT-3.5, however, you can easily switch to other models as needed.
 - **Streamlit GUI**: Features a clean and intuitive user interface crafted with Streamlit, suitable for users of all technical backgrounds.
 - **Python-based Framework**: Fully implemented in Python for ease of use and customization.
 
@@ -30,6 +30,10 @@ The key steps involve parsing the query, retrieving relevant information (often 
 - [4] [SuperAnnotate: RAG Explained](https://www.superannotate.com/blog/rag-explained)
 - [5] [Reddit MLQuestions: How does Retrieval-Augmented Generation (RAG) work?](https://www.reddit.com/r/MLQuestions/comments/16mkd84/how_does_retrieval_augmented_generation_rag/)
 
+## Interface Display of the Interactive Chatbot
+<img width="1427" alt="image" src="https://github.com/Phoenix0415/chat_with_websites/assets/94208127/c4a2049a-95a4-4100-97d3-dd54a90e9b7f">
+
+The image above shows the user interface of this Interactive Website Chatbot with the URL 'https://en.wikipedia.org/wiki/2024_United_States_presidential_election' entered in the sidebar. Despite using GPT-3.5, which does not contain this latest information in its training data, the chatbot can display current information by retrieving data directly from the specified URL.
 
 ## Installation
 Ensure you have Python installed on your system. Then clone this repository:
