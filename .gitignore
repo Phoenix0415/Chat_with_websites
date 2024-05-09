@@ -1,2 +1,8 @@
+# env files
 .env
+
+# local virtual environment
 venv/
+
+# local document
+.README_local.md
