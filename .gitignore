@@ -4,5 +4,4 @@
 # local virtual environment
 venv/
 
-# local document
-.README_local.md
+.README_LOCAL.md
