@@ -1,5 +1,6 @@
-# env files
-.env
+# Environment varibales
+.env*
+!.env*.example
 
 # local virtual environment
 venv/
